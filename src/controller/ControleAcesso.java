@@ -12,7 +12,7 @@ import javax.servlet.http.HttpSession;
 
 import model.Pessoa;
 import persistence.ControleAcessoDAO;
-import sun.misc.BASE64Encoder;
+import sun.misc.BASE64Encoder; 
 
 @WebServlet("/ControleAcesso")
 public class ControleAcesso extends HttpServlet {
